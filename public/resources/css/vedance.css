@@ -1,0 +1,333 @@
+@font-face { font-family: "GillSansUltraBold"; src: url("/public/resources/css/fonts/impac.ttf"); }
+@font-face { font-family: "GeosansLight"; src: url("/public/resources/css/fonts/GeosansLight.ttf"); }
+@font-face { font-family: "GeosansLightItalic"; src: url("/public/resources/css/fonts/GeosansLight-Oblique.ttf"); }
+
+@font-face { font-family: 'stowe'; src: url('/public/resources/css/fonts/STOWE__.TTF');}
+
+
+body{
+	min-width:1000px;
+   height: 100%;
+margin: 0px;
+padding: 0px;
+width: 100%;
+font-family:Verdana, Helvetica, sans-serif;
+}
+
+h1{
+	padding:0px;
+	margin:0px;
+	font-weight:bolder;
+	font-size:20px;
+}
+
+h2{
+	padding:0px;
+	margin:0px;
+	font-weight:bolder;
+	font-size:14px;
+}
+
+#headerLogo a{
+	text-decoration:none;
+}
+
+.headerInput{
+float:left;
+width:260px;
+height:37px;
+background:white;
+color:#666;
+font-size: 16px;
+border:none;
+padding-left:10px;
+}
+.submit{
+	cursor:pointer;
+	float:left;
+	height:40px; 
+	width:auto;
+	background-image:url('/public/resources/css/images/michigan-acupuncture/submit-background.png');
+	font-size:16px;
+	padding:8px 10px 10px 10px;
+	color:white;
+}
+.submit:hover{
+	color:black;	
+}
+
+p {
+font-size:13px;	
+}
+
+#header{
+/*margin-top:20px;
+*/width:100%;
+float:left;
+}
+
+#secondHeader{
+margin-top:13px;
+text-align:center;
+float:left;
+}
+
+
+#secondHeaderContent{
+float:left;
+width:500px; 
+background-color:#F3F3F3;
+margin-left:35px;
+}
+
+#secondHeaderContent p{
+font-size:13px;	
+}
+
+.dividerLine{
+float:left;
+width:100%;
+margin:5px 0px;
+height:2px;
+border-top: 1px solid #cccccc;
+border-bottom:none;
+}
+
+#scroller{
+
+z-index: 2;
+}
+
+
+#headerMenu{
+width:100%;
+float:left;
+width:1000px;
+height:40px;
+
+background-image:url('/public/resources/css/images/michigan-acupuncture/menu-background.jpg');
+}
+
+
+#headerMenu a{
+	float:left;
+	padding: 8px 0px 0px 25px;
+	font-size:16px;
+	color:white;
+	text-decoration:none;
+}
+
+#headerMenu a:hover{
+	color:black;
+	
+}
+
+.secondaryHeader{
+	background-image:url('/public/resources/css/images/michigan-acupuncture/menu-background.jpg');
+	float:left;
+	height:40px;
+	width:100%;
+	font-size:16px;
+	font-family: stowe, Verdana;
+}
+
+.secondaryHeader a{
+	float:left;
+	padding: 8px 0px 0px 25px;
+	font-size:18px;
+	color:white;
+}
+
+#productsBanner{
+	float:left;
+width:100%;
+/*height:300px;*/
+height:400px;
+overflow:hidden;
+}
+/*preview-images*/
+#preview-images{
+	background:#CCCCCC;
+	margin-bottom: 5px;
+	padding : 5px;
+}
+
+#preview-images ul{
+	list-style-image: none;
+	margin:0px;
+	padding:0px;
+}
+
+#preview-images li{
+	float:left;
+	font-size:0.85em;
+	text-align:center;
+	margin:3px;
+	padding:2px;
+	border:1px solid #ddd;
+	background: #fff;
+	list-style:none;
+}
+
+#preview-images img{
+	display:block;
+}
+
+#preview-images div{
+	clear:both;
+}
+
+#preview-images input{
+	font-size: 0.95em;
+}
+
+#contentDiv{
+	width:1000px;
+	float:left;
+}
+
+#banner{
+float:left;
+width:100%;
+/*height:300px;*/
+/*height:400px;
+*/overflow:hidden;
+/*background-position:0px -60px;*/
+}
+
+#bottomBody{
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	float:left;
+}
+
+p{
+	font-size:14px;
+	
+}
+
+.text{
+		font-size:14pt;
+
+}
+
+#footerImage{
+	
+}
+
+#wrapper{
+	margin: 0px auto;
+width: 1000px;
+
+}
+
+#messages{
+	width:100%;
+	height:60px;
+	float:left;
+}
+#toggleAddShipping{
+	color:#ED1C4E;
+}
+
+
+.largeFont{
+	font-size:24pt;
+}
+.mediumFont{
+	font-size:18pt;
+}
+.smallFont{
+	font-size:14pt;
+}
+.titleText{
+		font-family:GillSansUltraBold, Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.italic{
+	font-family:GeosansLightItalic, Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.itemRow td{
+	color:#333333;
+}
+
+.reviews{
+	padding-bottom:10px;
+	padding-top: 5px;
+	border-bottom:1px solid #999;
+}
+
+.subCategoryHeader{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+	padding-right:10px;
+	float:left;
+	width:215px;
+	cursor:pointer;
+}
+.subCategoryHeader:hover{
+	background:#f3f3f3;	
+}
+
+.categoryActive{
+	background:#CCC;
+
+}
+.hidden{
+	display:none;
+}
+
+/********post**************/
+.post{
+	margin-bottom:10px;	
+}
+.post-header{
+height:30px; 
+color:white;
+background:#333333;
+font-size:14px;
+padding-left:15px;
+padding-top:10px;
+width:734px;
+}
+
+.post-header a{
+display:none;	
+}
+
+.post-header:hover a{
+display:block;
+}
+
+.postFirstImage a{
+display:none;	
+}
+.postFirstImage:hover a{
+display:block;
+}
+
+
+.post-content{
+padding-left:15px;	
+font-size:12px;
+width:715px;
+
+}
+
+ul.post-images{
+float:left;	
+padding-left:15px;
+margin:0px;
+}
+
+ul.post-images li{
+float:left;
+list-style:none;
+padding:5px;
+background:white;
+margin:5px 10px 5px 0px;
+}
